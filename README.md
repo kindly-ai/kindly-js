@@ -1,6 +1,6 @@
 # Kindly JS
 
-A simple backend wrapper for node applications integrating with Kindly.
+A simple JavaScript library for applications integrating with [Kindly](https://kindly.gitbooks.io/kindly/).
 
 Just install it with npm:
 
