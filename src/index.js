@@ -9,6 +9,14 @@ module.exports = {
             user_id:        data.user_id,
             message:        data.message,
             exchange_id:    data.exchange_id,
+            new_context:    data.new_context,
         }).catch(function(err) {});
-    }
+    },
+    greet: function() {
+      axios.post(this.API_HOST + '/api/v1/greet', {
+          api_key:        this.API_KEY,
+          user_id:        data.user_id,
+          next_context:   data.new_context,
+      }).catch(function(err) {});
+    },
 }
