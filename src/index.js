@@ -12,7 +12,7 @@ module.exports = {
             new_context:    data.new_context,
         }).catch(function(err) {});
     },
-    greet: function() {
+    greet: function(data) {
       axios.post(this.API_HOST + '/api/v1/greet', {
           api_key:        this.API_KEY,
           user_id:        data.user_id,
