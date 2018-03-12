@@ -19,4 +19,11 @@ module.exports = {
           next_context:   data.new_context,
       }).catch(function(err) {});
     },
+    trigger: function(data) {
+      axios.post(this.API_HOST + '/api/v1/trigger', {
+          api_key:        this.API_KEY,
+          user_id:        data.user_id,
+          exchange_id:    data.exchange_id,
+      }).catch(function(err) {});
+    },
 }
