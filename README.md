@@ -6,6 +6,16 @@ Just install it with npm:
 
 `npm install kindly-js --save`
 
+Request a greeting-message:
+
+```javascript
+var kindly = require('kindly-js');
+kindly.API_KEY = "YOUR API KEY";
+kindly.greet({
+    user_id: "abc123", // User/chat identifier
+});
+```
+
 Ask the bot questions:
 
 ```javascript
