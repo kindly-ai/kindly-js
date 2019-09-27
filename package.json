@@ -10,5 +10,8 @@
     "license": "ISC",
     "dependencies": {
         "axios": "^0.16.2"
+    },
+    "devDependencies": {
+        "eslint-config-airbnb-base": "^11.3.1"
     }
 }
