@@ -9,7 +9,7 @@
     "author": "Gunnar Fornes <gunnar@convertelligence.no>",
     "license": "ISC",
     "dependencies": {
-        "axios": "^0.18.1"
+        "axios": "^0.21.1"
     },
     "devDependencies": {
         "eslint-config-airbnb-base": "^11.3.1"
